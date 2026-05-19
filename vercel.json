@@ -1,6 +1,6 @@
 {
   "cleanUrls": true,
-  "rewrites": [
-    { "source": "/", "destination": "/version2.html" }
+  "redirects": [
+    { "source": "/", "destination": "/version2", "permanent": true }
   ]
 }
