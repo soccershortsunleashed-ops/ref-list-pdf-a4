@@ -64,7 +64,9 @@ python -m http.server 4173
 - Vercel (static)
 - Netlify
 
-Ниже ссылка на деплой через GitHub Pages будет добавлена после публикации репозитория.
+Продакшен-ссылка (GitHub Pages):
+
+- https://soccershortsunleashed-ops.github.io/ref-list-pdf-a4/version2.html
 
 ## Лицензия
 
