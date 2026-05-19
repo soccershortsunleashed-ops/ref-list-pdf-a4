@@ -71,3 +71,7 @@ python -m http.server 4173
 ## Лицензия
 
 MIT
+
+## Autodeploy
+
+Vercel Git autodeploy: enabled for `main` branch.
