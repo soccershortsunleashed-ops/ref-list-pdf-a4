@@ -1,0 +1,48 @@
+﻿<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Референс-лист v2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles-v2.css" />
+  </head>
+  <body>
+    <main class="portfolio" id="pdf-root-v2">
+      <header class="hero">
+        <div class="hero-left">
+          <img class="logo" src="./LofoTSK-transparent.png" alt="Логотип ТСК" />
+          <div>
+            <h1>Референс-лист проектов</h1>
+            <p>Ключевые реализованные объекты компании в презентационном формате.</p>
+          </div>
+        </div>
+        <div class="legal">
+          <div class="legal-name">Общество с ограниченной ответственностью<br />«ТехноСтройЮг-Кубань»</div>
+          <div class="legal-grid">
+            <div class="legal-key">ИНН</div><div class="legal-value">2311249555</div>
+            <div class="legal-key">КПП</div><div class="legal-value">230801001</div>
+            <div class="legal-key">ОГРН</div><div class="legal-value">1172375100105</div>
+            <div class="legal-key">Телефон</div><div class="legal-value">8 (909) 455-11-00</div>
+            <div class="legal-key">E-Mail</div><div class="legal-value">info@polstroy-krd.ru</div>
+            <div class="legal-key">Сайт</div><div class="legal-value">http://polstroy-krd.ru</div>
+            <div class="legal-key">Юр. адрес</div><div class="legal-value">350089, г. Краснодар, ул. им. Думенко, дом 21/1 подвал здания литер Анад/Апод/Ааа1а2а3, нежилое помещение № 10</div>
+          </div>
+        </div>
+        <button id="download-pdf-v2" class="btn" type="button">Скачать PDF</button>
+      </header>
+
+      <section class="timeline-wrap">
+        <div class="cards" id="cards"></div>
+      </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./app-v2.js" type="module"></script>
+  </body>
+</html>

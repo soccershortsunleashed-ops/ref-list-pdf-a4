@@ -1,0 +1,41 @@
+﻿<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Референс-лист проектов</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page" id="pdf-root">
+      <header class="page-header">
+        <div class="brand-block">
+          <img class="brand-logo" src="./LofoTSK-transparent.png" alt="Логотип Техностройюг-Кубань" />
+        </div>
+        <div class="title-block">
+          <p class="eyebrow" data-pdf-hide>Документ</p>
+          <h1>Референс-лист проектов</h1>
+          <p class="subtitle" data-pdf-hide>Исходные данные из корпоративной таблицы. Ячейки можно редактировать прямо в таблице перед экспортом в PDF.</p>
+        </div>
+        <div class="actions no-print" data-pdf-hide>
+          <button id="download-pdf" type="button">Скачать PDF</button>
+        </div>
+      </header>
+
+      <section class="table-card" aria-label="Таблица проектов">
+        <div class="table-wrap">
+          <table id="reference-table">
+            <thead></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
